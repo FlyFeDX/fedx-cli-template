@@ -91,7 +91,11 @@
         "lint": "npx eslint './src/**/*.ts' './src/**/*.tsx'",
         "lint-fix": "npx eslint './src/**/*.ts' './src/**/*.tsx' --fix",
         "lint-css": "npx stylelint './src/**/*.less' './src/**/*.css'",
-        "lint-css-fix": "npx stylelint './src/**/*.less' './src/**/*.css' --fix"
+        "lint-css-fix": "npx stylelint './src/**/*.less' './src/**/*.css' --fix",
+        "start:service": "cd ./src/service && npm run dev",
+        "build:client": "npm run build",
+        "build:service": "cd ./src/service && npm run build",
+        "build:all": "npm run build && (cd ./src/service && npm run build)"
     },
     "browserslist": {
         "production": [
