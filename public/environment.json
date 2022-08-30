@@ -1,0 +1,12 @@
+{
+    "timeout": 20000,
+    "serviceDiscovery": "http://10.10.2.88:8000",
+    "servicesConfig": {
+        "testDemoUrl": {
+            "describe1": "模板demo数据mock地址",
+            "direct": "http://localhost:7777/moduleDemo/demo",
+            "discover": "",
+            "mode": "direct"
+        }
+    }
+}

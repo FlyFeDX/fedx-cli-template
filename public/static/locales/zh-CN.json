@@ -1,0 +1,27 @@
+{
+    "labels": {
+        "confirm": "确定",
+        "cancle": "取消"
+    },
+    "message": {
+        "login_params_is_null": "用户名或者密码为空",
+        "saveSuccess": "保存成功",
+        "saveError": "保存失败",
+        "deleteError": "删除失败",
+        "getDataError": "获取数据失败",
+        "openInWeXin": "请在微信浏览器中打开",
+        "noContent": "暂无数据",
+        "noMore": "没有更多了",
+        "enterIgnoreReason": "请填写忽略原因",
+        "need100Words": "字数限制100个",
+        "noResponse": "网络开小差了，请重试下"
+    },
+    "enums": {
+        "enableStatus": {
+            "enable": "启用",
+            "disable": "禁用"
+        }
+    },
+    "pages": {},
+    "components": {}
+}
